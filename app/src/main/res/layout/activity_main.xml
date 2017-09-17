@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    tools:context="com.frontlib.eslb.myapplication.MainActivity">
+
+        <TextView
+            android:id="@+id/TV_Problema"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="1) 34254 x 32452 ?"/>
+
+        <EditText
+            android:id="@+id/ET_Respuesta"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="number"/>
+
+        <Button
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/Bttn_Calificar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="OK"/>
+
+        <EditText
+            android:id="@+id/ET_NumeroPreguntas"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="number"
+            tools:text="16"/>
+
+        <Button
+            android:id="@+id/Bttn_Empezar"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="OK"/>
+        <TextView
+            android:id="@+id/TV_RespuestaCorrecta"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="Respuesta Correcta: 12345678"/>
+
+        <TextView
+            android:id="@+id/TV_CantDigitos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Por favor, introducta el número de dígitos (2~6):"
+            />
+
+        <EditText
+            android:id="@+id/ET_CantDigitos"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="number"
+            tools:text="16"/>
+
+        <Button
+            android:id="@+id/Bttn_CantDigitos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="OK"/>
+
+
+</LinearLayout>
